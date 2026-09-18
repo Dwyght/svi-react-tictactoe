@@ -1,0 +1,1 @@
+// Webservice calls used only by live gameplay: saveMove, getGameSession, registerSessionPlayer, updateSessionScore, sendSessionEmote, createRoundGameId, getCurrentRoundGameId (split out of the old api/webserviceApi.js -- these are game concerns, not history concerns)

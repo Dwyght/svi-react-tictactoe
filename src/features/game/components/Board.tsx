@@ -1,0 +1,1 @@
+// Renders the 3x3 grid by mapping 9 <Cell/>; owns no per-tile DOM logic itself (replaces components/game/Board.js, whose CREATE/ATTRIBUTES/APPEND/PLAYER-PREVIEW steps become per-cell React state instead of manual DOM code)

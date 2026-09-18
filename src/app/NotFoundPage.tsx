@@ -1,0 +1,1 @@
+// Route "*". New addition: real URL routing means invalid URLs are reachable and need a fallback. Kept out of features/ on purpose -- it belongs to no domain (not Home, Game, or History), so it lives at the app-shell level instead of being forced into a feature folder it does not belong to.

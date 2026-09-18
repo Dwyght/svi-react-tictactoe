@@ -1,0 +1,1 @@
+// Session lifecycle: createGame, joinGame, spectateGame, waitForPlayerO, restartGameSession, resetGameSession, checkGameStillActive, syncCurrentRoundGameId (split out of the 526-line services/gameFlowService.js CREATE/JOIN/SPECTATE/LIFECYCLE sections)

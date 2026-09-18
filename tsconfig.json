@@ -1,0 +1,3 @@
+{
+  "_purpose": "TypeScript compiler config; defines the @/* path alias used for clean imports (e.g. @/styles/..., @/features/...)"
+}

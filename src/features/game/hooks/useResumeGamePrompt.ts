@@ -1,0 +1,1 @@
+// Checks localStorage for a saved session on app start and exposes whether to show ResumeGameModal (extracted out of app.js isValidPlayerSession/showResumePrompt/resumeSavedGame, which mixed validation, prompting, and resuming into one 270-line orchestrator file)

@@ -1,0 +1,1 @@
+// Loads rooms/players/games lists, tracks the active view (room/player/round/replay), and derives loading/error state (replaces History.js VIEW NAVIGATION + STEP 1-3 sections, previously all inline in the page)

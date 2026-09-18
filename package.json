@@ -1,0 +1,3 @@
+{
+  "_purpose": "Project manifest: scripts (dev/build/lint), deps (react, react-router-dom, zustand), devDeps (vite, typescript)"
+}

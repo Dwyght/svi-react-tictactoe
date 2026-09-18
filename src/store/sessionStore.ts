@@ -1,0 +1,1 @@
+// Zustand store for the players identity/session (name, tile, gameCode), shared across Home, Game and the ResumeGameModal gate -- kept separate from gameStore.ts because session outlives one games board state

@@ -1,0 +1,1 @@
+// One board cell: shows the placed sushi, or a hover preview of the current players sushi on an empty cell, or nothing if disabled (extracted out of Board.js PLAYER PREVIEW / DISABLE / ENABLE sections, which applied this per-cell logic manually in a loop)

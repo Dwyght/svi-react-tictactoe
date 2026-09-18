@@ -1,0 +1,1 @@
+// Route "/". Composes CreateGameModal/JoinGameModal/SpectateModal/HowToPlayModal + HomeNotice; on success navigates to /game/:code (replaces pages/Home.js). Lives inside features/home so the whole Home feature -- UI, hooks, and its route -- is one folder to add or delete.

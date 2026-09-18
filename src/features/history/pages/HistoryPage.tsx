@@ -1,0 +1,1 @@
+// Route "/history". Composes RoomHistoryView/PlayerHistoryView/RoundHistoryView + HistoryReplay via useHistoryData (replaces the 857-line pages/History.js). Lives inside features/history; if this ever splits into separate routes per view, each becomes another file in this same pages/ folder -- no restructuring needed.

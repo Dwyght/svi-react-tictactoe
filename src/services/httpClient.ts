@@ -1,0 +1,1 @@
+// Shared fetch wrapper: base URL resolution, JSON parsing, error normalization, used by every api/*.ts file (new: old app duplicated fetch/try-catch boilerplate separately in tictactoeApi.js and webserviceApi.js)

@@ -1,0 +1,1 @@
+// Route "/game/:gameCode". Reads :gameCode from the URL, drives useGamePolling + gameStore, composes Board/Scoreboard/PauseMenu/EmotePicker/ResultModal/ResumeGameModal (replaces pages/Game.js, absorbing pages/Result.js, pages/Quit.js, pages/Emote.js). Lives inside features/game for the same reason.

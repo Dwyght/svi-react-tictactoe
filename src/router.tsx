@@ -1,0 +1,1 @@
+// React Router route table: imports HomePage from features/home/pages, GamePage from features/game/pages, HistoryPage from features/history/pages, and NotFoundPage from app/. Route paths and params are unchanged from the earlier layout -- only the import locations moved.

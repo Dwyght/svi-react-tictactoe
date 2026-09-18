@@ -1,0 +1,1 @@
+// Webservice calls used only for browsing past games: getAllGames, getRooms, getPlayers, getPlayerGames, getRoomGames, getGame (split out of the old api/webserviceApi.js -- these are history concerns, not game concerns)
