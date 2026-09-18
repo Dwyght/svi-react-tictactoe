@@ -245,6 +245,50 @@ Static asset files are omitted from the trees because individual images and vide
 
 ---
 
+## How the React Structure Works
+
+The folder structure also reflects how responsibilities flow through the React application:
+
+```text
+User Action
+    ↓
+Route / Page
+    ↓
+Component
+    ↓
+Hook
+    ↓
+Service / API
+    ↓
+Backend or Store
+    ↓
+Updated State
+    ↓
+React re-renders the affected UI
+```
+
+A route loads the appropriate feature page, such as `GamePage.tsx`. The page coordinates the components needed for that screen. Components handle presentation and user interaction, while hooks manage React-specific behavior and lifecycle concerns such as polling or session handling. Services contain application operations, API modules communicate with the backend, and stores hold shared state when needed. When state changes, React re-renders the affected components.
+
+For example, a Game interaction can follow this responsibility flow:
+
+```text
+GamePage
+    ↓
+Board
+    ↓
+useGameSession
+    ↓
+gameSessionService
+    ↓
+tictactoeApi
+    ↓
+Backend
+```
+
+This separation keeps UI, React lifecycle behavior, application logic, and backend communication in distinct responsibilities instead of combining them in one file.
+
+---
+
 ## Architecture
 
 ### Domain first, technical type second
